@@ -79,6 +79,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-extensions"
+version = "3.2.1"
+description = "Extensions for Django"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=3.2"
+
+[[package]]
 name = "exceptiongroup"
 version = "1.0.0"
 description = "Backport of PEP 654 (exception groups)"
@@ -313,7 +324,7 @@ testing = ["coverage (>=6.2)", "coverage-enable-subprocess (>=1)", "flaky (>=3.7
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "9306c9a003baaf3c6afc5fc9ef7ffd732a9d265ebabfe36a547f7acacc1d03ad"
+content-hash = "5836d15e6ef0ad33bb5e720f62e0d7ff036b9876ff1c4844e8d78da830a5b28c"
 
 [metadata.files]
 asgiref = []
@@ -323,6 +334,7 @@ colorama = []
 coverage = []
 distlib = []
 django = []
+django-extensions = []
 exceptiongroup = []
 execnet = []
 filelock = []
